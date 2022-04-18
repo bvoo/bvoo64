@@ -1,15 +1,17 @@
 <script lang="ts">
+  import { Base64 } from 'js-base64';
+
   let inputString = '';
   let resultString = '';
   let copyIcon = 'fal fa-copy';
 
   async function encode(inputString: string) {
-    resultString = btoa(inputString);
+    resultString = Base64.encode(inputString);
     copyIcon = 'fal fa-copy';
   }
 
   async function decode(inputString: string) {
-    resultString = atob(inputString);
+    resultString = Base64.decode(inputString);
     copyIcon = 'fal fa-copy';
   }
 
