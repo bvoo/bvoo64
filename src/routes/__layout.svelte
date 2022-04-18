@@ -3,20 +3,20 @@
 </script>
 
 <svelte:head>
-  <title>bvoo.xyz</title>
+  <title>b64.bvoo.xyz</title>
   <meta content='en_US' name='locale' />
   <meta content='#2e2e2e' name='theme-color' />
-  <meta content='cool stuff' name='description' />
-  <meta content='cool stuff' property='og:description' />
-  <meta content='cool stuff' name='twitter:description' />
+  <meta content='base64 encode/decode' name='description' />
+  <meta content='base64 encode/decode' property='og:description' />
+  <meta content='base64 encode/decode' name='twitter:description' />
 
-  <meta content='bvoo.xyz' property='og:title' />
-  <meta content='bvoo.xyz' name='twitter:title' />
-  <meta content='bvoo.xyz' property='og:site_name' />
+  <meta content='b64.bvoo.xyz' property='og:title' />
+  <meta content='b64.bvoo.xyz' name='twitter:title' />
+  <meta content='b64.bvoo.xyz' property='og:site_name' />
   <meta content='/large-content.png' name='og:image' />
 
   <meta content='website' property='og:type' />
-  <meta content='https://bvoo.xyz/' property='og:url' />
+  <meta content='https://b64.bvoo.xyz/' property='og:url' />
   <meta content='/large-content.png' property='og:image' />
   <meta content='/favicon.png' name='twitter:image' />
   <meta content='summary_large_image' name='twitter:card' />
